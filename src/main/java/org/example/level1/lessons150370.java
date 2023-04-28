@@ -1,4 +1,4 @@
-package org.example;
+package org.example.level1;
 
 
 import java.util.ArrayList;
@@ -58,6 +58,7 @@ public class lessons150370 {
         for(int i = 0; i < temp.size(); i++){
             answer[i] = temp.get(i);
         }
+
         return answer;
     }
 }
