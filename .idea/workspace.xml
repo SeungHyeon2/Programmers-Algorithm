@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b8ccf36-5c44-4bc7-8623-f9dd9c04bbae" name="변경" comment="Add a Solved Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12910.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12925.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12933.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12917.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12922.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12935.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12948.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,20 +91,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.lessons12910">
-    <configuration name="lessons12903" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12903" />
-      <module name="Programmers-Algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.level1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.lessons12917">
     <configuration name="lessons12910" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12910" />
       <module name="Programmers-Algorithm.main" />
@@ -117,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lessons12933" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12933" />
+    <configuration name="lessons12917" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12917" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lessons76501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons76501" />
+    <configuration name="lessons12922" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12922" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +131,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lessons86051" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons86051" />
+    <configuration name="lessons12935" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12935" />
+      <module name="Programmers-Algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lessons12948" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12948" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.lessons12917" />
+        <item itemvalue="애플리케이션.lessons12922" />
+        <item itemvalue="애플리케이션.lessons12935" />
+        <item itemvalue="애플리케이션.lessons12948" />
         <item itemvalue="애플리케이션.lessons12910" />
-        <item itemvalue="애플리케이션.lessons12933" />
-        <item itemvalue="애플리케이션.lessons12903" />
-        <item itemvalue="애플리케이션.lessons86051" />
-        <item itemvalue="애플리케이션.lessons76501" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683611007150</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add a Solved Problem">
+      <created>1683679987917</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683679987917</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
