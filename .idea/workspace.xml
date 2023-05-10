@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b8ccf36-5c44-4bc7-8623-f9dd9c04bbae" name="변경" comment="Add a Solved Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12940.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12950.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12969.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons12906.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,9 +88,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.lessons12940">
-    <configuration name="lessons12917" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12917" />
+  <component name="RunManager" selected="애플리케이션.lessons12906">
+    <configuration name="lessons12906" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons12906" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.lessons12906" />
         <item itemvalue="애플리케이션.lessons12940" />
         <item itemvalue="애플리케이션.lessons12969" />
         <item itemvalue="애플리케이션.lessons12950" />
         <item itemvalue="애플리케이션.lessons82612" />
-        <item itemvalue="애플리케이션.lessons12917" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683701240844</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add a Solved Problem">
+      <created>1683705668220</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683705668220</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
