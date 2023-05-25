@@ -4,33 +4,29 @@ public class lessons161989 {
 
     public static void main(String[] args) {
 
-        int n = 8;
-        int m = 4;
-        int[] section = {2, 3, 6};
+        int n = 4;
+        int m = 1;
+        int[] section = {1, 2, 3, 4};
 
         solution(n, m, section);
     }
 
     public static int solution(int n, int m, int[] section) {
-        int answer = 0;
+        int start = section[0];
+        int end = section[0] + (m-1);
+        int ans = 1;
 
-        int min = section[0];
-        int max = section[section.length - 1];
+        for(int i : section){
+            if(i>=start && i<=end)
+                continue;
+            else{
+                start = i;
+                end = i + (m-1);
+                ans++;
+            }
 
-        int target = max - min + 1;
-
-        if(target > 0){
-            answer = 1;
         }
-
-        if(target%m!=0){
-            answer = target/m + 1;
-        }else if(target%m==0){
-            answer = target/m;
-        }
-
-        // System.out.println("answer : " + answer);
-        return answer;
+        return ans;
     }
 
 }
