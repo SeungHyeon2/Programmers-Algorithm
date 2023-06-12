@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b8ccf36-5c44-4bc7-8623-f9dd9c04bbae" name="변경" comment="Add a Solved Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons12985.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons42885.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons12914.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons12953.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons12980.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons138476.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,9 +93,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.lessons12985">
-    <configuration name="lessons12973" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.level2.lessons12973" />
+  <component name="RunManager" selected="애플리케이션.lessons138476">
+    <configuration name="lessons12953" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level2.lessons12953" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lessons12981" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.level2.lessons12981" />
+    <configuration name="lessons12980" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level2.lessons12980" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lessons42842" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.level2.lessons42842" />
+    <configuration name="lessons138476" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level2.lessons138476" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.lessons138476" />
+        <item itemvalue="애플리케이션.lessons12953" />
+        <item itemvalue="애플리케이션.lessons12980" />
         <item itemvalue="애플리케이션.lessons12985" />
         <item itemvalue="애플리케이션.lessons42885" />
-        <item itemvalue="애플리케이션.lessons42842" />
-        <item itemvalue="애플리케이션.lessons12981" />
-        <item itemvalue="애플리케이션.lessons12973" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +190,8 @@
       <workItem from="1685421262750" duration="12819000" />
       <workItem from="1685930414960" duration="10996000" />
       <workItem from="1685951715180" duration="3955000" />
-      <workItem from="1686294634395" duration="5260000" />
+      <workItem from="1686294634395" duration="6680000" />
+      <workItem from="1686541521241" duration="8890000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1682643663714</created>
@@ -365,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685954452001</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add a Solved Problem">
+      <created>1686300847778</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686300847778</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,17 +386,6 @@
     <MESSAGE value="150370 Solve" />
     <MESSAGE value="Add a Solved Problem" />
     <option name="LAST_COMMIT_MESSAGE" value="Add a Solved Problem" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/level2/lessons12985.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
