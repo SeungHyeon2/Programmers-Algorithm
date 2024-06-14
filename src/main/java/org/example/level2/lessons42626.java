@@ -38,7 +38,6 @@ public class lessons42626 {
     }
 
     public static int solution(int[] scoville, int K) {
-        int answer = 0;
         int count = 0;
 
         PriorityQueue<Integer> al = new PriorityQueue<Integer>();
@@ -67,8 +66,6 @@ public class lessons42626 {
             }
 
         }
-
-        System.out.println("count: " + count);
 
         return count;
     }
