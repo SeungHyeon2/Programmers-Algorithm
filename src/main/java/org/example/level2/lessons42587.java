@@ -2,79 +2,62 @@ package org.example.level2;
 
 import java.util.*;
 
-//문제 설명
-//    운영체제의 역할 중 하나는 컴퓨터 시스템의 자원을 효율적으로 관리하는 것입니다. 이 문제에서는 운영체제가 다음 규칙에 따라 프로세스를 관리할 경우 특정 프로세스가 몇 번째로 실행되는지 알아내면 됩니다.
+//  문제 설명
+//    트럭 여러 대가 강을 가로지르는 일차선 다리를 정해진 순으로 건너려 합니다. 모든 트럭이 다리를 건너려면 최소 몇 초가 걸리는지 알아내야 합니다. 다리에는 트럭이 최대 bridge_length대 올라갈 수 있으며, 다리는 weight 이하까지의 무게를 견딜 수 있습니다. 단, 다리에 완전히 오르지 않은 트럭의 무게는 무시합니다.
 //
-//    1. 실행 대기 큐(Queue)에서 대기중인 프로세스 하나를 꺼냅니다.
-//    2. 큐에 대기중인 프로세스 중 우선순위가 더 높은 프로세스가 있다면 방금 꺼낸 프로세스를 다시 큐에 넣습니다.
-//    3. 만약 그런 프로세스가 없다면 방금 꺼낸 프로세스를 실행합니다.
-//    3.1 한 번 실행한 프로세스는 다시 큐에 넣지 않고 그대로 종료됩니다.
-//    예를 들어 프로세스 4개 [A, B, C, D]가 순서대로 실행 대기 큐에 들어있고, 우선순위가 [2, 1, 3, 2]라면 [C, D, A, B] 순으로 실행하게 됩니다.
+//    예를 들어, 트럭 2대가 올라갈 수 있고 무게를 10kg까지 견디는 다리가 있습니다. 무게가 [7, 4, 5, 6]kg인 트럭이 순서대로 최단 시간 안에 다리를 건너려면 다음과 같이 건너야 합니다.
 //
-//    현재 실행 대기 큐(Queue)에 있는 프로세스의 중요도가 순서대로 담긴 배열 priorities와, 몇 번째로 실행되는지 알고싶은 프로세스의 위치를 알려주는 location이 매개변수로 주어질 때, 해당 프로세스가 몇 번째로 실행되는지 return 하도록 solution 함수를 작성해주세요.
+//    경과 시간	다리를 지난 트럭	다리를 건너는 트럭	대기 트럭
+//    0	        []	            []	            [7,4,5,6]
+//    1~2	    []	            [7]	            [4,5,6]
+//    3	        [7]	            [4]	            [5,6]
+//    4	        [7]	            [4,5]	        [6]
+//    5	        [7,4]	        [5]	            [6]
+//    6~7	    [7,4,5]	        [6]	            []
+//    8	        [7,4,5,6]	    []	            []
+//    따라서, 모든 트럭이 다리를 지나려면 최소 8초가 걸립니다.
 //
-//    제한사항
-//    priorities의 길이는 1 이상 100 이하입니다.
-//    priorities의 원소는 1 이상 9 이하의 정수입니다.
-//    priorities의 원소는 우선순위를 나타내며 숫자가 클 수록 우선순위가 높습니다.
-//    location은 0 이상 (대기 큐에 있는 프로세스 수 - 1) 이하의 값을 가집니다.
-//    priorities의 가장 앞에 있으면 0, 두 번째에 있으면 1 … 과 같이 표현합니다.
+//    solution 함수의 매개변수로 다리에 올라갈 수 있는 트럭 수 bridge_length, 다리가 견딜 수 있는 무게 weight, 트럭 별 무게 truck_weights가 주어집니다. 이때 모든 트럭이 다리를 건너려면 최소 몇 초가 걸리는지 return 하도록 solution 함수를 완성하세요.
+//
+//    제한 조건
+//    bridge_length는 1 이상 10,000 이하입니다.
+//    weight는 1 이상 10,000 이하입니다.
+//    truck_weights의 길이는 1 이상 10,000 이하입니다.
+//    모든 트럭의 무게는 1 이상 weight 이하입니다.
 //    입출력 예
-//    priorities	location	return
-//    [2, 1, 3, 2]	2	1
-//    [1, 1, 9, 1, 1, 1]	0	5
-//    입출력 예 설명
-//    예제 #1
-//
-//    문제에 나온 예와 같습니다.
-//
-//    예제 #2
-//
-//    6개의 프로세스 [A, B, C, D, E, F]가 대기 큐에 있고 중요도가 [1, 1, 9, 1, 1, 1] 이므로 [C, D, E, F, A, B] 순으로 실행됩니다. 따라서 A는 5번째로 실행됩니다.
-
-
+//    bridge_length	    weight	    truck_weights	                    return
+//    2	                10	        [7,4,5,6]	                        8
+//    100 	            100	        [10]	                            101
+//    100	            100	        [10,10,10,10,10,10,10,10,10,10]	    110
 
 public class lessons42587 {
 
     public static void main(String[] args) {
-        int[] priorities = {1, 1, 9, 1, 1, 1};
-        int location = 2;
-
-        solution(priorities, location);
+        int bridge_length = 2;
+        int weight = 10;
+        int[] truck_weights = {7, 4, 5, 6};
+        solution(bridge_length, weight, truck_weights);
     }
 
-    public static int solution(int[] priorities, int location) {
+    public static int solution(int bridge_length, int weight, int[] truck_weights) {
         int answer = 0;
-        // 큐를 초기화합니다.
-        Queue<int[]> queue = new LinkedList<>();
-        for (int i = 0; i < priorities.length; i++) {
-            queue.add(new int[]{i, priorities[i]});
+        // bridege_length : 다리 길이이나, 다리 지나가는데 경과 시간이라고 봐도 됌
+        // weight : 다리가 견딜 수 있는 무게
+        // truck_weights : 트럭의 무게
+        
+        Queue<Integer[]> queue = new LinkedList<>();
+        Stack<Integer> stack = new Stack<>();
+
+        for(int i = bridge_length -1; i < 0; i--){
+            stack.push(truck_weights[i]);
         }
 
-        while (!queue.isEmpty()) {
-            int[] current = queue.poll();
-            boolean hasHigherPriority = false;
+        System.out.println(truck_weights);
+        while(true){
 
-            // 큐에 대기중인 프로세스 중 우선순위가 더 높은 프로세스가 있는지 확인
-            for (int[] process : queue) {
-                if (process[1] > current[1]) {
-                    hasHigherPriority = true;
-                    break;
-                }
-            }
 
-            if (hasHigherPriority) {
-                // 우선순위가 더 높은 프로세스가 있다면 방금 꺼낸 프로세스를 다시 큐에 넣으
-                queue.add(current);
-            } else {
-                // 그렇지 않으면 방금 꺼낸 프로세스를 실행
-                answer++;
-                if (current[0] == location) {
-                    return answer;  // 실행한 프로세스가 우리가 찾는 프로세스인 경우
-                }
-            }
+            break;
         }
-
         return answer;
     }
 }
