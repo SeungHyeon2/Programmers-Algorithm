@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b8ccf36-5c44-4bc7-8623-f9dd9c04bbae" name="변경" comment="Add a Solved Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/free/free.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons250121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons64065.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons86971.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons42587.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons42587.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +92,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.free">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="애플리케이션.lessons250121">
+    <configuration name="free" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.free.free" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.free.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="free" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.free.free" />
+    <configuration name="lessons250121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.level1.lessons250121" />
       <module name="Programmers-Algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.free.*" />
+          <option name="PATTERN" value="org.example.level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,6 +160,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.lessons250121" />
         <item itemvalue="애플리케이션.free" />
         <item itemvalue="애플리케이션.lessons42587" />
         <item itemvalue="애플리케이션.lessons42577" />
@@ -200,6 +202,8 @@
       <workItem from="1716615045269" duration="7872000" />
       <workItem from="1719028355265" duration="4860000" />
       <workItem from="1719721533948" duration="598000" />
+      <workItem from="1720050982016" duration="1466000" />
+      <workItem from="1720053930628" duration="16740000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1682643663714</created>
