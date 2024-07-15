@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b8ccf36-5c44-4bc7-8623-f9dd9c04bbae" name="변경" comment="Add a Solved Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level1/lessons250121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons64065.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons86971.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons42584.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons42584.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +201,8 @@
       <workItem from="1719028355265" duration="4860000" />
       <workItem from="1719721533948" duration="598000" />
       <workItem from="1720050982016" duration="1466000" />
-      <workItem from="1720053930628" duration="16740000" />
+      <workItem from="1720053930628" duration="27911000" />
+      <workItem from="1720396496594" duration="34527000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1682643663714</created>
