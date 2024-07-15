@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b8ccf36-5c44-4bc7-8623-f9dd9c04bbae" name="변경" comment="Add a Solved Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lecture/section7/step1_recursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lecture/section7/step2_recursiveBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lecture/section7/step3_recursiveFactorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lecture/section7/step4_recursivePibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/findPrimeNumber_42839.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/level2/lessons86971.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/level2/divideElectricalGrid_86971.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lecture/section7/step4_recursivePibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lecture/section7/step4_recursivePibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +203,7 @@
       <workItem from="1716615045269" duration="7872000" />
       <workItem from="1719028355265" duration="4860000" />
       <workItem from="1719721533948" duration="598000" />
-      <workItem from="1720846831682" duration="5676000" />
+      <workItem from="1720846831682" duration="7653000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1682643663714</created>
