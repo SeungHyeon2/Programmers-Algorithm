@@ -15,22 +15,28 @@ import java.util.Scanner;
 
 public class step4_recursivePibonacci {
 
+    private static int[] fibArray;
+
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         scanner.close();
+
+        fibArray = new int[n+1];
+
         for(int i=1; i<=n; i++){
             System.out.print(DFS(i) + " ");
         }
-
     }
+
     public static int DFS(int n){
+        if(fibArray[n] != 0) return fibArray[n];
         if(n == 1) {
-            return 1;
+            return fibArray[1] = 1;
         } else if(n == 2) {
-            return 1;
+            return fibArray[2] = 1;
         } else {
-            return DFS(n-1) + DFS(n-2);
+            return fibArray[n] = fibArray[n-1] + fibArray[n-2];
         }
     }
 }
