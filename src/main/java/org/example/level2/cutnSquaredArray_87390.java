@@ -1,7 +1,5 @@
 package org.example.level2;
 
-import java.util.*;
-
 // 문제 설명
 //         정수 n, left, right가 주어집니다. 다음 과정을 거쳐서 1차원 배열을 만들고자 합니다.
 //
@@ -16,7 +14,7 @@ import java.util.*;
 // 3	2	5	[3,2,2,3]
 // 4	7	14	[4,3,3,3,4,4,4,4]
 
-public class CutnSquaredArray_87390 {
+public class cutnSquaredArray_87390 {
 
     public static void main(String[] args) {
 
