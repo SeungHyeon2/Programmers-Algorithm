@@ -35,46 +35,46 @@ import java.util.*;
 
 public class lessons42579 {
 
-    public static void main(String[] args) {
-        String[] genres = {"classic", "pop", "classic", "classic", "pop"};
-        int[] plays = {500, 600, 150, 800, 2500};
-        solution(genres, plays);
+  public static void main(String[] args) {
+    String[] genres = {"classic", "pop", "classic", "classic", "pop"};
+    int[] plays = {500, 600, 150, 800, 2500};
+    solution(genres, plays);
+  }
+
+  public static int[] solution(String[] genres, int[] plays) {
+    ArrayList<Integer> answer = new ArrayList<>();
+
+    HashMap<String, Integer> num = new HashMap<>();
+    HashMap<String, HashMap<Integer, Integer>> music = new HashMap<>();
+
+    for (int i = 0; i < plays.length; i++) {
+      if (num.containsKey(genres[i])) {
+        music.get(genres[i]).put(i, plays[i]);
+        num.put(genres[i], plays[i] + num.get(genres[i]));
+      } else {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(i, plays[i]);
+        music.put(genres[i], map);
+        num.put(genres[i], plays[i]);
+      }
     }
 
-    public static int[] solution(String[] genres, int[] plays) {
-        ArrayList<Integer> answer = new ArrayList<>();
+    // num 정렬
+    List<String> keySet = new ArrayList<>(num.keySet());
+    keySet.sort((s1, s2) -> num.get(s2) - num.get(s1));
 
-        HashMap<String, Integer> num = new HashMap<String, Integer>();
-        HashMap<String, HashMap<Integer, Integer>> music = new HashMap<>();
+    // music 정렬
+    for (String key : keySet) {
+      List<Integer> keySet2 = new ArrayList<>(music.get(key).keySet());
+      keySet2.sort((s1, s2) -> music.get(key).get(s2) - music.get(key).get(s1));
 
-        for(int i = 0; i < plays.length; i++){
-            if(num.containsKey(genres[i])){
-                music.get(genres[i]).put(i, plays[i]);
-                num.put(genres[i], plays[i] + num.get(genres[i]));
-            }else{
-                HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-                map.put(i, plays[i]);
-                music.put(genres[i], map);
-                num.put(genres[i], plays[i]);
-            }
-        }
-
-        // num 정렬
-        List<String> keySet = new ArrayList<String>(num.keySet());
-        Collections.sort(keySet, (s1, s2) -> num.get(s2) - num.get(s1));
-
-        // music 정렬
-        for(String key : keySet){
-            List<Integer> keySet2 = new ArrayList<Integer>(music.get(key).keySet());
-            keySet2.sort((s1, s2) -> music.get(key).get(s2) - music.get(key).get(s1));
-
-            answer.add(keySet2.get(0));
-            if(keySet2.size() > 1){
-                answer.add(keySet2.get(1));
-            }
-        }
-
-        return answer.stream().mapToInt(i -> i).toArray();
+      answer.add(keySet2.get(0));
+      if (keySet2.size() > 1) {
+        answer.add(keySet2.get(1));
+      }
     }
+
+    return answer.stream().mapToInt(i -> i).toArray();
+  }
 
 }
